@@ -1,20 +1,32 @@
-#box1{
-    border: 1px solid;
-    height: 300px;
-    width: 300px;
-    background-color:skyblue;
-
-    position: sticky;
-    top: 0px;
+a:link{
+    color:lawngreen;
 }
-#box2{
-    border: 1px solid;
-    height: 100px;
-    width: 100px;
-    background-color:tomato;
-
-    position: absolute;
-
-    top: 100px;
-    left: 100px;
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:tomato;
+}
+a:active{
+    color:yellow;
+}
+button:hover{
+    background-color: lightgrey;
+}
+button:active{
+    background-color: white;
+}
+/*
+li:nth-child(1){
+    background-color: yellow;
+}
+li:nth-child(even){
+    background-color: skyblue;
+}
+li:nth-child(odd){
+    background-color: powderblue;
+}
+*/
+li:nth-child(5n+0){
+    background-color: yellow;
 }
