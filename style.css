@@ -1,8 +1,6 @@
-h1{
-    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+.fa-twitter{
+    color:aqua;
 }
-h1:hover{
-    box-shadow: 5px 5px 5px black;
+.fa-youtube{
+    color: red;
 }
-
-
