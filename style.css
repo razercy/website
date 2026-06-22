@@ -1,32 +1,8 @@
-a:link{
-    color:lawngreen;
+h1{
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
 }
-a:visited{
-    color:grey;
+h1:hover{
+    box-shadow: 5px 5px 5px black;
 }
-a:hover{
-    color:tomato;
-}
-a:active{
-    color:yellow;
-}
-button:hover{
-    background-color: lightgrey;
-}
-button:active{
-    background-color: white;
-}
-/*
-li:nth-child(1){
-    background-color: yellow;
-}
-li:nth-child(even){
-    background-color: skyblue;
-}
-li:nth-child(odd){
-    background-color: powderblue;
-}
-*/
-li:nth-child(5n+0){
-    background-color: yellow;
-}
+
+
