@@ -1,17 +1,28 @@
 body{
-    background-image: url("myBackground.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    margin: 0px;
 }
-h1{
-    background: linear-gradient(to right,skyblue, white);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    /* 
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+    margin: 50px;
+    */
+    margin-right: auto;
+    margin-left: auto;
 }
-p{
-    background: linear-gradient(to left,skyblue, white);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
 }
