@@ -1,19 +1,16 @@
 body{
-    background-color: gray;
+    background-color:#111111;
 }
+
 h1{
-    color:white;
+    color: #FFFFFF;
+    font-family: "Press Start 2P", "consolas", sans-serif;
 }
 p{
-    background-color:gray; 
-    color:white;
-}
-#p1{
-    color:tomato;
-}
-.odd{
-    color:red;
-}
-.odd{
-    color:blue;
+    color: #00FF73;
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
 }
